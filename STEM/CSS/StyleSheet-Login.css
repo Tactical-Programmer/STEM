@@ -1,0 +1,169 @@
+@charset="UTF-8";
+body{
+	margin: 0 auto;
+	float: left;
+	background-color: #ecf0f1;	
+    width: 100%;
+    height: 100%;
+	display: block;
+	background-image: url(../Images/img5.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+@font-face{
+    font-family:'Helvetica';
+    src: url(../Fonts/Helvetica.ttf);
+}
+
+@font-face{
+    font-family:'coolvetica';
+    src: url(../Fonts/coolvetica.ttf);
+}
+
+.Logos {
+	position: relative;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 25%;
+	height: auto;
+	background-color: white;
+	border-top-left-radius: 20%;
+	border-top-right-radius: 20%;
+	top: 20px;
+}
+
+.Logos:hover{
+	background-color: #ecf0f1;
+	transition: background-color 0.2s;
+}
+
+#login{
+	position: relative;
+	margin: 5% auto;
+}
+
+.leftbox{
+	position: relative;
+	float: left;
+	padding: 40px;
+	width: 20%;
+	height: 60%;
+	background-color: white;
+	left: 25%;
+	margin: 0 auto;
+	border-top-left-radius: 10%;
+	border-bottom-left-radius: 10%;
+}
+
+input, button{
+	display: block;
+}
+
+h1{
+	font-size: 1.5em;
+	text-align: left;
+	font-family: Helvetica;
+	color: #e67e22;
+}
+
+input[type="text"],input[type="password"]{
+	margin-bottom: 1em;
+	width: 80%;
+	height: 8%;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid #aaa;
+	font-family: coolvetica;
+	font-size: 15px;
+}
+
+input[type="submit"]{
+	margin-bottom: 28px;
+	width: 45%;
+	height: 9%;
+	background-color: #e67e22;
+	border: none;
+	border-radius: 3%;
+	color: #fff;
+	font-family: Helvetica;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover{
+	background-color: #ff9130;
+	transition: background-color 0.3s;
+}
+
+#or{
+	position: relative;
+	left: 3.5em;
+	color: #95a5a6;
+}
+
+a{
+	display: block;
+	font-family: Helvetica;
+	font-size: 0.8em;
+	color: #7f8c8d;
+	margin: 0.4em;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+.rightbox{
+	position: relative;
+	padding: 40px;
+	float: right;
+	width: 20%;
+	height: 60%;
+	background-color: white;
+	right: 25%;
+	border-left: 0.1em solid #95a5a6;
+	margin: 0 auto;
+	border-top-right-radius: 10%;
+	border-bottom-right-radius: 10%;
+}
+
+button.social{
+	margin-bottom: 20px;
+	width: 220px;
+	height: 36px;
+	border: none;
+	border-radius: 3%;
+	color: #fff;
+	font-family: coolvetica;
+	font-size: 15px;
+	cursor: pointer;
+}
+
+#facebook{
+	background-color: #5375bc;
+}
+
+#google{
+	background-color: #f25e4d;
+}
+
+#facebook:hover{
+	background-color: #3b5998;
+	transition: background-color 0.3s;
+}
+
+#google:hover{
+	background-color: #db4a39;
+	transition: background-color 0.3s;
+}
+
+#first, #last{
+	width: 40%;
+	height: auto;
+	display: inline-block;
+}
+
+#last{
+	width: 38%;
+}

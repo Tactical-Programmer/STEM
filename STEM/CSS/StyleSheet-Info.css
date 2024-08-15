@@ -1,0 +1,193 @@
+@charset="UTF-8";
+header{
+	border-bottom: 0.2em solid #e67e22;
+	background-color: white;
+	box-shadow: 0.1em 0.4em 3em black;
+}
+
+body{
+	margin: 0 auto;
+	float: left;
+	background-color: #ecf0f1;	
+    width: 100%;
+    height: 100%;
+	display: block;
+}
+
+@font-face{
+    font-family:'Helvetica';
+    src: url(../Fonts/Helvetica.ttf);
+}
+
+@font-face{
+    font-family:'coolvetica';
+    src: url(../Fonts/coolvetica.ttf);
+}
+
+.Logos {
+	width: 25%;
+	height: auto;
+	margin-right: 0;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#nav1{
+	margin-left: 10em;
+	margin-top: 1em;
+	display: inline-block;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#nav1 li{
+	display: inline-block;
+	margin-left: 3.5em;
+	padding-top: 3em;
+	vertical-align: center;
+}
+
+.Header a{
+	color: #000;
+	text-decoration: none;
+	text-transform:uppercase;
+	font-weight: bold;
+	font-size: 80%;
+	padding: 1em;
+	text-align: center;
+}
+
+.Header a:hover{
+	background-color: #00C4FF;
+	transition: background-color 0.3s;
+}
+
+.Log{
+	background-color: #e67e22;
+}
+
+#top{
+	margin-top: 1em;
+}
+
+body h1{
+	font-size: 3.5em;
+	margin-bottom: -0.1em;
+	text-align: center;
+	font-family: Helvetica;
+	color: #e67e22;
+}
+
+body p{
+	margin: 1em 4em 1em;
+	text-align: center;
+	font-family: coolvetica;
+	font-size: 1.3em;
+}
+
+footer{
+	display: table;
+    position: fixed;
+    width: 100%;
+	height: 5em;
+	bottom: 0;
+	margin-top: 3em;
+}
+
+#left{
+	display: inline-block;
+	background-color: #e67e22;
+	width: 30%;
+	min-height: 100%;
+	float: left;
+}
+
+#right{
+	display: inline-block;
+	background-color: #2c3e50;
+	width: 70%;
+	min-height: 100%;
+	float: right;
+}
+
+footer h1{
+	font-size: 2em;
+	margin-left: 2em;
+	margin-bottom: -0.1em;
+	text-align: left;
+	font-family: Helvetica;
+	color: #ecf0f1;
+}
+
+footer p{
+	border-top: 0.1em solid #e67e22;
+	text-align: left;
+	font-family: coolvetica;
+	font-size: 1.2em;
+	margin-left: 3em;
+	color: #ecf0f1;
+}
+
+footer img{
+	display: inline-block;
+	width:4em;
+	height: auto;
+}
+
+.Icons{
+	margin-left: 3em;
+}
+
+.icon{
+	transition: transform 0.5s;
+}
+
+.icon:hover{
+	transform: scale(1.3);
+	transition: transform 1s;
+}
+
+.contact{
+	text-align: center;
+}
+
+.contact div{
+	text-align: center;
+	width: 25%;
+	height: auto;
+	display: inline-block;
+	margin: 15px;
+	margin-bottom: 5em;
+	vertical-align: top; 
+}
+
+.contact img{
+	width: 25%;
+	height: auto;
+	margin-top: 10px;
+}
+
+.contact h1,h2{
+	position: relative;
+	text-align: center;
+	font-family: Helvetica;
+	top: 0;
+	bottom: 0;
+	font-size: 1.5em;
+	color: #e67e22;
+}
+
+.contact h2{
+	font-size: 20px;
+}
+
+.contact p{
+	font-family: coolvetica;
+	text-align: center;
+	margin: 1em;
+	font-size: 18px;
+}
